@@ -1,6 +1,6 @@
 {
   "name": "@emperorschildren/react-native-maps-clusterer-animated",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "React Native Map Animated Clustering both for Android and iOS powered by react-native-clusterer AND react-native-reanimated",
   "repository": {
     "type": "git",
@@ -46,21 +46,22 @@
     "prettier": "^3.3.3",
     "react": "^18.3.1",
     "react-native": "^0.75.4",
+    "react-native-clusterer": "^2.0.0",
+    "react-native-maps": "*",
+    "react-native-reanimated": "^3",
     "typescript": "<5.2.0"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
+    "react-native-clusterer": "^2.0.0",
+    "react-native-maps": "*",
+    "react-native-reanimated": ">=3",
     "typescript": "*"
   },
   "resolutions": {
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6"
-  },
-  "dependencies": {
-    "react-native-clusterer": "^2.0.0",
-    "react-native-maps": "^1.18.2",
-    "react-native-reanimated": "^3.16.0"
   },
   "packageManager": "yarn@4.5.0"
 }

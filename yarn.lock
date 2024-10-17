@@ -1071,12 +1071,15 @@ __metadata:
     react: "npm:^18.3.1"
     react-native: "npm:^0.75.4"
     react-native-clusterer: "npm:^2.0.0"
-    react-native-maps: "npm:^1.18.2"
-    react-native-reanimated: "npm:^3.16.0"
+    react-native-maps: "npm:*"
+    react-native-reanimated: "npm:^3"
     typescript: "npm:<5.2.0"
   peerDependencies:
     react: "*"
     react-native: "*"
+    react-native-clusterer: ^2.0.0
+    react-native-maps: "*"
+    react-native-reanimated: ">=3"
     typescript: "*"
   languageName: unknown
   linkType: soft
@@ -6466,7 +6469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-maps@npm:*, react-native-maps@npm:^1.18.2":
+"react-native-maps@npm:*":
   version: 1.18.2
   resolution: "react-native-maps@npm:1.18.2"
   dependencies:
@@ -6482,7 +6485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:^3.16.0":
+"react-native-reanimated@npm:^3":
   version: 3.16.0
   resolution: "react-native-reanimated@npm:3.16.0"
   dependencies:
