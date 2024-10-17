@@ -1,0 +1,66 @@
+{
+  "name": "@emperorschildren/react-native-maps-clusterer-animated",
+  "version": "0.0.1-alpha.0",
+  "description": "React Native Map Animated Clustering both for Android and iOS powered by react-native-clusterer AND react-native-reanimated",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmperorsChildren/reactreact-native-maps-clusterer-animated.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EmperorsChildren/react-native-maps-clusterer-animated/issues"
+  },
+  "homepage": "https://github.com/EmperorsChildren/react-native-maps-clusterer-animated#readme",
+  "keywords": [
+    "react-native",
+    "react",
+    "cluster",
+    "android",
+    "iOS",
+    "map",
+    "clustering"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "EmperorsChildren",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "bundle": "yarn prepare && npm publish --access public",
+    "compile": "rm -rf lib && tsc -p .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "prepare": "yarn lint && yarn compile",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@types/react": "^18.3.11",
+    "@types/react-native-maps": "^0.24.2",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-native": "^0.75.4",
+    "typescript": "<5.2.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "typescript": "*"
+  },
+  "resolutions": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6"
+  },
+  "dependencies": {
+    "react-native-clusterer": "^2.0.0",
+    "react-native-maps": "^1.18.2",
+    "react-native-reanimated": "^3.16.0"
+  },
+  "packageManager": "yarn@4.5.0"
+}
